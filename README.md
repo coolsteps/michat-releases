@@ -16,7 +16,7 @@
 У каждого выпуска рядом с установщиком лежит `SHA256SUMS`. Сверьте:
 
 ```powershell
-Get-FileHash michat-client-1.4.10.exe -Algorithm SHA256
+Get-FileHash michat-client-1.4.11.exe -Algorithm SHA256
 ```
 
 Полученная строка должна совпасть со строкой из `SHA256SUMS`.
